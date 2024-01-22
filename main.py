@@ -9,9 +9,9 @@ import requests
 import random
 import os
 
-# 变量 18815121233,!Zhfgod1025
-ty_username = os.getenv("TYYP_USERNAME").split('&')
-ty_password = os.getenv("TYYP_PSW").split('&')
+# 变量 ty_username（手机号）,ty_password（密码）
+ty_username = os.getenv("TYYP_USERNAME").split('18815121223&')
+ty_password = os.getenv("TYYP_PSW").split('!Zhfgod1025&')
 
 BI_RM = list("0123456789abcdefghijklmnopqrstuvwxyz")
 
