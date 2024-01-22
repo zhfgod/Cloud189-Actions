@@ -9,7 +9,7 @@ import requests
 import random
 import os
 
-# 变量 ty_username（手机号）,ty_password（密码）
+# 变量 18815121233,!Zhfgod1025
 ty_username = os.getenv("TYYP_USERNAME").split('&')
 ty_password = os.getenv("TYYP_PSW").split('&')
 
